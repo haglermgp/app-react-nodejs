@@ -27,7 +27,7 @@ new WebpackDevServer(compiler, {
       // This lets us open files from the runtime error overlay.
       app.use(errorOverlayMiddleware());
     }
-  }).listen(3000, 'localhost', err => {
+  }).listen(8000, 'localhost', err => {
     if (err)
       console.log("err", err)
   })

@@ -9,7 +9,7 @@ module.exports = {
   cache   : true,
   context : __dirname,
   entry: [
-    'webpack-dev-server/client?http://localhost:3000',
+    'webpack-dev-server/client?http://localhost:8000',
     'webpack/hot/only-dev-server', //only-dev-server
     './src/App.js',
   ],
