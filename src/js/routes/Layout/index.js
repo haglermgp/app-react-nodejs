@@ -1,5 +1,5 @@
-// import Main from './Main';
-//
-// export {
-//   Main
-// }
+import mainApp from './mainApp';
+
+export {
+  mainApp
+}
